@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.loupixprofile binary
+*.png binary
+*.jpg binary
+*.jpeg binary

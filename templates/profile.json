@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "my-streaming-setup",
+  "name": "My Streaming Setup",
+  "description": "Scene switching, mute toggles and a chat page for OBS.",
+  "author": "your-github-name",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [ "streaming", "obs" ],
+  "platforms": [ "Windows", "Linux" ]
+}

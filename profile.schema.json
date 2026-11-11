@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profile.schema.json",
+  "title": "LoupixDeck profile submission",
+  "description": "profile.json next to a .loupixprofile package in profiles/<author>/<id>/. Holds only what the package does not: device, plugins and commands are read from the package's own manifest.",
+  "type": "object",
+  "required": [ "id", "name", "description", "author", "version" ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": {
+      "description": "Stable id, unique across the repository. Must equal the folder name and never change.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "maxLength": 64
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 60 },
+    "description": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "author": {
+      "description": "Your GitHub user name. Must equal the parent folder name.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$"
+    },
+    "version": {
+      "description": "major.minor.patch. Raise it every time you change the package.",
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "license": {
+      "description": "SPDX identifier. Defaults to CC-BY-4.0 when missing.",
+      "type": "string",
+      "default": "CC-BY-4.0"
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 10,
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" }
+    },
+    "platforms": {
+      "description": "Systems the profile is meant for. Leave empty or omit for every platform.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "enum": [ "Windows", "Linux", "macOS" ] }
+    }
+  }
+}

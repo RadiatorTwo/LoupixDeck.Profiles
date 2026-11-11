@@ -1,0 +1,65 @@
+name: Validate profiles
+
+# Runs on every pull request. Checks that each submission is well-formed, that the author only
+# touches their own folder, and that index.json is left to the publish workflow.
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate submissions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check folder ownership
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: |
+          author=$(echo "$PR_AUTHOR" | tr '[:upper:]' '[:lower:]')
+          owner=$(echo "$REPO_OWNER" | tr '[:upper:]' '[:lower:]')
+          if [ "$author" = "$owner" ]; then
+            echo "Pull request by the repository owner; ownership check skipped."
+            exit 0
+          fi
+          failed=0
+          while IFS= read -r file; do
+            case "$file" in
+              profiles/*)
+                folder=$(echo "$file" | cut -d/ -f2 | tr '[:upper:]' '[:lower:]')
+                if [ "$folder" != "$author" ]; then
+                  echo "::error file=$file::Only profiles/$PR_AUTHOR/ may be changed in your pull request."
+                  failed=1
+                fi
+                ;;
+              *)
+                echo "::error file=$file::Only files under profiles/$PR_AUTHOR/ may be changed. index.json is generated after merge."
+                failed=1
+                ;;
+            esac
+          done < <(git diff --name-only "origin/$BASE_REF...HEAD")
+          exit $failed
+
+      - name: Validate submissions
+        run: python scripts/build_index.py
+
+      - name: Validate generated index against schema
+        run: |
+          pip install --quiet check-jsonschema
+          check-jsonschema --schemafile index.schema.json index.json
+          for f in profiles/*/*/profile.json; do
+            [ -e "$f" ] || continue
+            check-jsonschema --schemafile profile.schema.json "$f"
+          done
