@@ -50,3 +50,9 @@ the package. The app refuses a download whose hash does not match.
 ## Reporting a profile
 
 If a profile is broken, misleading or harmful, open an issue with a link to its folder.
+
+## License
+
+Each profile under `profiles/` uses the license in its `profile.json` (default
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)); its author keeps the copyright.
+Everything else is MIT. See [LICENSE](LICENSE).

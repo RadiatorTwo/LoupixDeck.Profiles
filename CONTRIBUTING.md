@@ -61,6 +61,9 @@ pull request.
 
 ## Rules
 
+- By opening a pull request you license your profile under the `license` in its `profile.json`
+  (default `CC-BY-4.0`).
+
 - Only share profiles you made or have the right to share. Images inside the package must be yours
   or free to use.
 - No commands that harm the user's system, collect data, or download and run software.
