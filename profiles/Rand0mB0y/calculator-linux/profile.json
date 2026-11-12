@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "calculator-linux",
+  "name": "Calculator",
+  "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard",
+  "author": "Rand0mB0y",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [ "calculator", "math" ],
+  "platforms": [ "Linux" ]
+}
