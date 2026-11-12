@@ -1,4 +1,45 @@
 {
   "schemaVersion": 1,
-  "profiles": []
+  "profiles": [
+    {
+      "id": "calculator-linux",
+      "name": "Calculator",
+      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just one settings change.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-12T09:16:38Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "calculator",
+        "math"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.LaunchApp"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.56.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/preview.png",
+      "package": {
+        "fileName": "calculator-linux.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/calculator-linux.loupixprofile",
+        "sha256": "63031b059a3a792bcba0a1d2235d0dc308c121d09643d5ee5015d42865ac34fd",
+        "size": 3564
+      }
+    }
+  ]
 }
