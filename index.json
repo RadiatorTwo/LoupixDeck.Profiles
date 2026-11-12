@@ -40,6 +40,56 @@
         "sha256": "63031b059a3a792bcba0a1d2235d0dc308c121d09643d5ee5015d42865ac34fd",
         "size": 3564
       }
+    },
+    {
+      "id": "digikam-win-lin",
+      "name": "digiKam",
+      "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-12T16:14:02Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "digikam",
+        "dam"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        }
+      ],
+      "commands": [
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.MouseClick"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.56.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/preview.png",
+      "package": {
+        "fileName": "digikam-win-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/digikam-win-lin.loupixprofile",
+        "sha256": "5c9aef8edff73aa838494bd8c3c374648934622f92b3227eb187b737e81fbc4c",
+        "size": 4895
+      }
     }
   ]
 }
