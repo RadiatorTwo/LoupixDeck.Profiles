@@ -1,6 +1,6 @@
 {
   "$schema": "../../../profile.schema.json",
-  "id": "protools-soundcraft-win-linux",
+  "id": "protools-soundcraft-win-lin",
   "name": "Pro Tools / SoundCraft",
   "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips. Compatible with Pro Tools and SoundCraft DAWs.",
   "author": "Rand0mB0y",
