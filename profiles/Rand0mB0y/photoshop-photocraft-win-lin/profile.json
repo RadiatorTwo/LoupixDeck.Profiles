@@ -6,6 +6,6 @@
   "author": "Rand0mB0y",
   "version": "1.0.0",
   "license": "CC-BY-4.0",
-  "tags": [ "Photoshop", "PhotoCraft", "Adobe", "ArtCraft", "graphics" ],
+  "tags": [ "photoshop", "photocraft", "adobe", "artcraft", "graphics" ],
   "platforms": [ "Windows", "Linux" ]
 }
