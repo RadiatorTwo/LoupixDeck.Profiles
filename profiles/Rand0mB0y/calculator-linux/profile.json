@@ -2,7 +2,7 @@
   "$schema": "../../../profile.schema.json",
   "id": "calculator-linux",
   "name": "Calculator",
-  "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just settings change.",
+  "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just one settings change.",
   "author": "Rand0mB0y",
   "version": "1.0.0",
   "license": "CC-BY-4.0",
