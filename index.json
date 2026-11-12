@@ -2,6 +2,59 @@
   "schemaVersion": 1,
   "profiles": [
     {
+      "id": "browsing-win-lin",
+      "name": "Browsing",
+      "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-12T19:22:03Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "browser",
+        "email",
+        "productivity",
+        "media"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        }
+      ],
+      "commands": [
+        "Audio.MuteToggle",
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.56.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/preview.png",
+      "package": {
+        "fileName": "browsing-win-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
+        "sha256": "055af9857fda2e99b3b2227fb05cc5a5ffdbea9ff3a8350ea7f5e6c4f657f9ee",
+        "size": 1350988
+      }
+    },
+    {
       "id": "calculator-linux",
       "name": "Calculator",
       "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just one settings change.",
