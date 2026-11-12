@@ -92,6 +92,58 @@
       }
     },
     {
+      "id": "photoshop-photocraft-win-lin",
+      "name": "Photoshop / PhotoCraft",
+      "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-12T18:35:53Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "photoshop",
+        "photocraft",
+        "adobe",
+        "artcraft",
+        "graphics"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.Macro"
+      ],
+      "macros": [
+        "Modifier Alt",
+        "Modifier Control",
+        "Modifier Shift"
+      ],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.56.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/page-2.png"
+      ],
+      "package": {
+        "fileName": "photoshop-photocraft-win-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/photoshop-photocraft-win-lin.loupixprofile",
+        "sha256": "cb9e1fa4a05981925e2c388f08bf7b4975019a353502ce69dcd81b374bca94d2",
+        "size": 8109
+      }
+    },
+    {
       "id": "protools-soundcraft-win-lin",
       "name": "Pro Tools / SoundCraft",
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips. Compatible with Pro Tools and SoundCraft DAWs.",
