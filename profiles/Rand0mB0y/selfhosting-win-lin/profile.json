@@ -6,6 +6,6 @@
   "author": "Rand0mB0y",
   "version": "1.0.0",
   "license": "CC-BY-4.0",
-  "tags": [ "selfhosting", "selfhost", "services", "dash", "jellyfin", "immich", "proxmox", "adguard", "truenas", "nextcloud", "GUI", "browser" ],
+  "tags": [ "selfhosting", "selfhost", "services", "dash", "jellyfin", "immich", "proxmox", "adguard", "truenas", "nextcloud" ],
   "platforms": [ "Windows", "Linux" ]
 }
