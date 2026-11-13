@@ -370,6 +370,64 @@
         "sha256": "e68f7b969cb2f66d1b6fbb08d1e3068429982629bd3f1d85645d336f401cf72f",
         "size": 5625
       }
+    },
+    {
+      "id": "selfhosting-win-lin",
+      "name": "Self-Hosting",
+      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T15:25:18Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "selfhosting",
+        "selfhost",
+        "services",
+        "dash",
+        "jellyfin",
+        "immich",
+        "proxmox",
+        "adguard",
+        "truenas",
+        "nextcloud"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        }
+      ],
+      "commands": [
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/preview.png",
+      "package": {
+        "fileName": "selfhosting-win-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/selfhosting-win-lin.loupixprofile",
+        "sha256": "32425531cc882d1d2148305530df685e01af716d42b89557eba6e081249c99bd",
+        "size": 726593
+      }
     }
   ]
 }
