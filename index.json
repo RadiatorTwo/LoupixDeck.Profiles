@@ -284,6 +284,48 @@
       }
     },
     {
+      "id": "cubase-mac",
+      "name": "Cubase",
+      "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T20:13:04Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "daw",
+        "music",
+        "production",
+        "cubase",
+        "steinberg"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-mac/preview.png",
+      "package": {
+        "fileName": "cubase-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-mac/cubase-mac.loupixprofile",
+        "sha256": "c504ee1d8791cb049217c3c075fd9da49314de3611d3758d9a8ffb3841781c77",
+        "size": 5407
+      }
+    },
+    {
       "id": "cubase-win-lin",
       "name": "Cubase",
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips.",
