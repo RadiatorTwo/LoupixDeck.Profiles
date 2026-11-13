@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "digikam-mac",
+  "name": "digiKam",
+  "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
+  "author": "Rand0mB0y",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [ "digikam", "dam" ],
+  "platforms": [ "macOS" ]
+}
