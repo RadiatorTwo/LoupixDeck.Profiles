@@ -50,6 +50,106 @@
       }
     },
     {
+      "id": "artcraft-win",
+      "name": "ArtCraft",
+      "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T17:22:35Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "artcraft",
+        "photocraft",
+        "filmcraft",
+        "effectcraft",
+        "soundcraft",
+        "lightcraft",
+        "graphics",
+        "daw",
+        "office",
+        "word"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.LaunchApp",
+        "System.OpenFolder"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/preview.png",
+      "package": {
+        "fileName": "artcraft-win.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/artcraft-win.loupixprofile",
+        "sha256": "c7b449ca89cbc888a08192bfde0fa782b62fb846d3159c2f7c76441fd3baac3a",
+        "size": 8147
+      }
+    },
+    {
+      "id": "browsing-mac",
+      "name": "Browsing",
+      "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-13T18:21:20Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "browser",
+        "email",
+        "productivity",
+        "media"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        }
+      ],
+      "commands": [
+        "Audio.MuteToggle",
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/preview.png",
+      "package": {
+        "fileName": "browsing-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/browsing-mac.loupixprofile",
+        "sha256": "b2ac2e1f748903b11c1e4efad2a517edcd5670c66569000843df1ea2e5d35679",
+        "size": 1347055
+      }
+    },
+    {
       "id": "browsing-win-lin",
       "name": "Browsing",
       "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
@@ -227,6 +327,55 @@
       }
     },
     {
+      "id": "digikam-mac",
+      "name": "digiKam",
+      "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T18:40:44Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "digikam",
+        "dam"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        }
+      ],
+      "commands": [
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.MouseClick"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.56.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/preview.png",
+      "package": {
+        "fileName": "digikam-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/digikam-mac.loupixprofile",
+        "sha256": "b3810a805d34b8053ce83ef457f1f6153692e3a0b6a560d5bdba97709eebefeb",
+        "size": 4686
+      }
+    },
+    {
       "id": "digikam-win-lin",
       "name": "digiKam",
       "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
@@ -274,6 +423,57 @@
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/digikam-win-lin.loupixprofile",
         "sha256": "5c9aef8edff73aa838494bd8c3c374648934622f92b3227eb187b737e81fbc4c",
         "size": 4895
+      }
+    },
+    {
+      "id": "photoshop-photocraft-mac",
+      "name": "Photoshop / PhotoCraft",
+      "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-13T19:55:03Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "photoshop",
+        "photocraft",
+        "adobe",
+        "artcraft",
+        "graphics"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.Macro"
+      ],
+      "macros": [
+        "Modifier Alt",
+        "Modifier Shift",
+        "Modifier Win"
+      ],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/page-2.png"
+      ],
+      "package": {
+        "fileName": "photoshop-photocraft-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/photoshop-photocraft-mac.loupixprofile",
+        "sha256": "873da7c2926ed0b9ac362a009f5824a6a794b7ce7ad78de7a5542ebd9fb744ee",
+        "size": 8250
       }
     },
     {
@@ -329,6 +529,48 @@
       }
     },
     {
+      "id": "protools-soundcraft-mac",
+      "name": "Pro Tools / SoundCraft",
+      "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips. Compatible with Pro Tools and SoundCraft DAWs.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T19:18:02Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "daw",
+        "music",
+        "protools",
+        "soundcraft"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.MouseClick"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.56.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-mac/preview.png",
+      "package": {
+        "fileName": "protools-soundcraft-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-mac/protools-soundcraft-mac.loupixprofile",
+        "sha256": "4959c74ee7c291e984eb504dfdaef5117c155f888b82c4921c8011ad20917b36",
+        "size": 5532
+      }
+    },
+    {
       "id": "protools-soundcraft-win-lin",
       "name": "Pro Tools / SoundCraft",
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips. Compatible with Pro Tools and SoundCraft DAWs.",
@@ -372,12 +614,73 @@
       }
     },
     {
+      "id": "selfhosting-mac",
+      "name": "Self-Hosting",
+      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T18:49:36Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "selfhosting",
+        "selfhost",
+        "services",
+        "dash",
+        "jellyfin",
+        "immich",
+        "proxmox",
+        "adguard",
+        "truenas",
+        "nextcloud"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        }
+      ],
+      "commands": [
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/page-2.png"
+      ],
+      "package": {
+        "fileName": "selfhosting-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/selfhosting-mac.loupixprofile",
+        "sha256": "75c7b9e60db5d234e8e6fc5e7ef0fe7d63503d2f1e6514333760f480bbf95658",
+        "size": 719024
+      }
+    },
+    {
       "id": "selfhosting-win-lin",
       "name": "Self-Hosting",
       "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T15:25:18Z",
+      "updatedAt": "2026-11-13T17:45:27Z",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
@@ -422,6 +725,10 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/page-2.png"
+      ],
       "package": {
         "fileName": "selfhosting-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/selfhosting-win-lin.loupixprofile",
