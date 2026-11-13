@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "profiles": [
     {
+      "id": "artcraft-lin",
+      "name": "ArtCraft",
+      "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T15:05:16Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "artcraft",
+        "photocraft",
+        "filmcraft",
+        "effectcraft",
+        "soundcraft",
+        "lightcraft",
+        "graphics",
+        "daw",
+        "office",
+        "word"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.LaunchApp",
+        "System.OpenFolder"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/preview.png",
+      "package": {
+        "fileName": "artcraft-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/artcraft-lin.loupixprofile",
+        "sha256": "66d9e4dd62d72ed7ddbbc502fd774f4195e7419441eab70e41aa4ebc3a32480b",
+        "size": 8021
+      }
+    },
+    {
       "id": "browsing-win-lin",
       "name": "Browsing",
       "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
