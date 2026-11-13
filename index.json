@@ -6,8 +6,8 @@
       "name": "Browsing",
       "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-12T19:22:03Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-12T23:25:48Z",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -45,13 +45,13 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.56.0",
+      "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/preview.png",
       "package": {
         "fileName": "browsing-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
-        "sha256": "055af9857fda2e99b3b2227fb05cc5a5ffdbea9ff3a8350ea7f5e6c4f657f9ee",
-        "size": 1350988
+        "sha256": "1862885214336962cde43f519196c81e30ccaa8962ddf312c5eaf892839e92f8",
+        "size": 1350981
       }
     },
     {
@@ -92,6 +92,90 @@
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/calculator-linux.loupixprofile",
         "sha256": "63031b059a3a792bcba0a1d2235d0dc308c121d09643d5ee5015d42865ac34fd",
         "size": 3564
+      }
+    },
+    {
+      "id": "calculator-win",
+      "name": "Calculator",
+      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the bottom left dial to open the calculator app.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T01:19:06Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "calculator",
+        "math"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "powershell -c \"",
+        "tasklist /fo csv /nh 2>nul | findstr /i /c:\"CalculatorApp.exe\" /c:\"Calculator.exe\" >nul"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/preview.png",
+      "package": {
+        "fileName": "calculator-win.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/calculator-win.loupixprofile",
+        "sha256": "6bdefd8c3e2ef3343930c84fb3e1ac873e5b3de5999bcc73410145c696613720",
+        "size": 3748
+      }
+    },
+    {
+      "id": "cubase-win-lin",
+      "name": "Cubase",
+      "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-13T01:01:13Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "daw",
+        "music",
+        "production",
+        "cubase",
+        "steinberg"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.57.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-win-lin/preview.png",
+      "package": {
+        "fileName": "cubase-win-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-win-lin/cubase-win-lin.loupixprofile",
+        "sha256": "7024810ffabbd78bc5d48e56f21067e73bf4875af6c5ad6729d8893969feb54c",
+        "size": 19611
       }
     },
     {
@@ -149,8 +233,8 @@
       "name": "Photoshop / PhotoCraft",
       "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-12T18:35:53Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-13T01:12:52Z",
       "license": "CC-BY-4.0",
       "tags": [
         "photoshop",
@@ -183,7 +267,7 @@
       ],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.56.0",
+      "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/page-1.png",
@@ -192,7 +276,7 @@
       "package": {
         "fileName": "photoshop-photocraft-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/photoshop-photocraft-win-lin.loupixprofile",
-        "sha256": "cb9e1fa4a05981925e2c388f08bf7b4975019a353502ce69dcd81b374bca94d2",
+        "sha256": "549427166913a3dd0deb421ee70057d1f27ebe869b6bc36069ff4b8f6b7772e8",
         "size": 8109
       }
     },
