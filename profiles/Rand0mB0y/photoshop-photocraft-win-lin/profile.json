@@ -4,7 +4,7 @@
   "name": "Photoshop / PhotoCraft",
   "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
   "author": "Rand0mB0y",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "CC-BY-4.0",
   "tags": [ "photoshop", "photocraft", "adobe", "artcraft", "graphics" ],
   "platforms": [ "Windows", "Linux" ]
