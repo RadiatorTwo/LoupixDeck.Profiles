@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "selfhosting-win-lin",
+  "name": "Self-Hosting",
+  "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+  "author": "Rand0mB0y",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [ "selfhosting", "selfhost", "services", "dash", "jellyfin", "immich", "proxmox", "adguard", "truenas", "nextcloud", "GUI", "browser" ],
+  "platforms": [ "Windows", "Linux" ]
+}
