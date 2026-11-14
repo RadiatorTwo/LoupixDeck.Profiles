@@ -7,7 +7,7 @@
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T15:05:16Z",
+      "updatedAt": "2026-11-14T13:33:56Z",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -42,6 +42,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "artcraft-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/artcraft-lin.loupixprofile",
@@ -55,7 +58,7 @@
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T17:22:35Z",
+      "updatedAt": "2026-11-14T13:37:55Z",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -90,6 +93,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "artcraft-win.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/artcraft-win.loupixprofile",
@@ -103,7 +109,7 @@
       "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-13T18:21:20Z",
+      "updatedAt": "2026-11-14T13:37:55Z",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -142,6 +148,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "browsing-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/browsing-mac.loupixprofile",
@@ -155,7 +164,7 @@
       "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-12T23:25:48Z",
+      "updatedAt": "2026-11-14T13:37:55Z",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -195,6 +204,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "browsing-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
@@ -208,7 +220,7 @@
       "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just one settings change.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-12T09:16:38Z",
+      "updatedAt": "2026-11-14T13:40:06Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
@@ -235,6 +247,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.56.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "calculator-linux.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/calculator-linux.loupixprofile",
@@ -248,7 +263,7 @@
       "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the bottom left dial to open the calculator app.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T01:19:06Z",
+      "updatedAt": "2026-11-14T13:40:06Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
@@ -276,6 +291,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "calculator-win.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/calculator-win.loupixprofile",
@@ -289,7 +307,7 @@
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T20:13:04Z",
+      "updatedAt": "2026-11-14T13:42:24Z",
       "license": "CC-BY-4.0",
       "tags": [
         "daw",
@@ -318,6 +336,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-mac/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "cubase-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-mac/cubase-mac.loupixprofile",
@@ -331,7 +352,7 @@
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T01:01:13Z",
+      "updatedAt": "2026-11-14T13:42:24Z",
       "license": "CC-BY-4.0",
       "tags": [
         "daw",
@@ -361,6 +382,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-win-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-win-lin/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "cubase-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/cubase-win-lin/cubase-win-lin.loupixprofile",
@@ -374,7 +398,7 @@
       "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T18:40:44Z",
+      "updatedAt": "2026-11-14T13:43:52Z",
       "license": "CC-BY-4.0",
       "tags": [
         "digikam",
@@ -410,6 +434,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.56.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "digikam-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/digikam-mac.loupixprofile",
@@ -423,7 +450,7 @@
       "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-12T16:14:02Z",
+      "updatedAt": "2026-11-14T13:43:52Z",
       "license": "CC-BY-4.0",
       "tags": [
         "digikam",
@@ -460,6 +487,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.56.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "digikam-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/digikam-win-lin.loupixprofile",
@@ -468,12 +498,80 @@
       }
     },
     {
+      "id": "obs-win-lin-mac",
+      "name": "OBS",
+      "description": "Enable recording/streaming, switch scenes, launch clips, mute/unmute sources and control volumes. All at your finger tips in a single stylish page.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-14T20:12:21Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "obs",
+        "video",
+        "recording",
+        "streaming",
+        "live",
+        "camera"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.18.0"
+        },
+        {
+          "id": "obs",
+          "name": "OBS Studio",
+          "version": "1.6.0"
+        }
+      ],
+      "commands": [
+        "Audio.Volume",
+        "System.DeviceToggle",
+        "System.KeyCombination",
+        "System.LaunchApp",
+        "System.ObsSetScene",
+        "System.ObsToggleInputMute",
+        "System.ObsToggleRecord",
+        "System.ObsToggleStream"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.58.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/screenshots/buttons-page-1-toggled-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/screenshots/device-page-1-toggled-0.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/screenshots/device-page-1-toggled-1.png"
+      ],
+      "package": {
+        "fileName": "obs-win-lin-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/obs-win-lin-mac.loupixprofile",
+        "sha256": "05ed45b1bacd17a2a29f9d25677cf3980d1ac910ed192484b15e0ab8ec9e8f89",
+        "size": 7072
+      }
+    },
+    {
       "id": "photoshop-photocraft-mac",
       "name": "Photoshop / PhotoCraft",
       "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-13T19:55:03Z",
+      "updatedAt": "2026-11-14T13:50:16Z",
       "license": "CC-BY-4.0",
       "tags": [
         "photoshop",
@@ -508,8 +606,9 @@
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/device-page-2.png"
       ],
       "package": {
         "fileName": "photoshop-photocraft-mac.loupixprofile",
@@ -524,7 +623,7 @@
       "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-13T01:12:52Z",
+      "updatedAt": "2026-11-14T13:50:16Z",
       "license": "CC-BY-4.0",
       "tags": [
         "photoshop",
@@ -560,8 +659,9 @@
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/device-page-2.png"
       ],
       "package": {
         "fileName": "photoshop-photocraft-win-lin.loupixprofile",
@@ -576,7 +676,7 @@
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips. Compatible with Pro Tools and SoundCraft DAWs.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T19:18:02Z",
+      "updatedAt": "2026-11-14T14:01:03Z",
       "license": "CC-BY-4.0",
       "tags": [
         "daw",
@@ -605,6 +705,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.56.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-mac/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "protools-soundcraft-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-mac/protools-soundcraft-mac.loupixprofile",
@@ -618,7 +721,7 @@
       "description": "Scroll, scrub and zoom with ease using dials. Plus quick action buttons at your finger tips. Compatible with Pro Tools and SoundCraft DAWs.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-12T15:05:24Z",
+      "updatedAt": "2026-11-14T14:01:40Z",
       "license": "CC-BY-4.0",
       "tags": [
         "daw",
@@ -648,6 +751,9 @@
       "configSchemaVersion": 13,
       "appVersion": "1.56.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-win-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-win-lin/screenshots/device-page-1.png"
+      ],
       "package": {
         "fileName": "protools-soundcraft-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/protools-soundcraft-win-lin/protools-soundcraft-win-lin.loupixprofile",
@@ -661,7 +767,7 @@
       "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T18:49:36Z",
+      "updatedAt": "2026-11-14T13:55:53Z",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
@@ -706,8 +812,9 @@
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/device-page-2.png"
       ],
       "package": {
         "fileName": "selfhosting-mac.loupixprofile",
@@ -722,7 +829,7 @@
       "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-13T17:45:27Z",
+      "updatedAt": "2026-11-14T13:55:53Z",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
@@ -768,8 +875,9 @@
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/device-page-2.png"
       ],
       "package": {
         "fileName": "selfhosting-win-lin.loupixprofile",
