@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "obs-win-lin-mac",
+  "name": "OBS",
+  "description": "Enable recording/streaming, switch scenes, launch clips, mute/unmute sources and control volumes. All at your finger tips in a single stylish page.",
+  "author": "Rand0mB0y",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [ "obs", "video", "recording", "streaming", "live", "camera" ],
+  "platforms": [ "Windows", "Linux", "macOS" ]
+}
