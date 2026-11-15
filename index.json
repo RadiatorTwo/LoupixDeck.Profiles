@@ -7,7 +7,7 @@
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:33:56Z",
+      "updatedAt": "2026-11-15T19:44:46Z",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -43,6 +43,7 @@
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/preview.png",
       "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/buttons-page-0.png",
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-page-1.png"
       ],
       "package": {
@@ -58,7 +59,7 @@
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
       "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:37:55Z",
+      "updatedAt": "2026-11-15T19:44:46Z",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -94,6 +95,7 @@
       "appVersion": "1.57.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/preview.png",
       "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/buttons-page-0.png",
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-page-1.png"
       ],
       "package": {
