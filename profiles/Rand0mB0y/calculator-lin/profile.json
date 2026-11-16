@@ -1,11 +1,11 @@
 {
   "$schema": "../../../profile.schema.json",
-  "id": "calculator-lin",
+  "id": "calculator-linux",
   "name": "Calculator",
-  "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just one settings change.",
+  "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It works with GNOME, KDE, Xfce, Cinnamon and minimal. For Wayland and X11.",
   "author": "Rand0mB0y",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "CC-BY-4.0",
-  "tags": [ "calculator", "math" ],
+  "tags": [ "calculator", "math", "calc", "cinnamon", "gnome", "kde", "xfce", "minimal" ],
   "platforms": [ "Linux" ]
 }
