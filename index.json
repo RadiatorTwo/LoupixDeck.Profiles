@@ -217,16 +217,22 @@
       }
     },
     {
-      "id": "calculator-linux",
+      "id": "calculator-lin",
       "name": "Calculator",
-      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. It works with any calculator app, but it launches the GNOME stock calculator by default when pressing the bottom left dial, change it to whichever app you prefer with just one settings change.",
+      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It works with GNOME, KDE, Xfce, Cinnamon and minimal. For Wayland and X11.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:40:06Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-16T13:09:38Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
-        "math"
+        "math",
+        "calc",
+        "cinnamon",
+        "gnome",
+        "kde",
+        "xfce",
+        "minimal"
       ],
       "platforms": [
         "Linux"
@@ -242,34 +248,37 @@
       "requiredPlugins": [],
       "commands": [
         "System.KeyCombination",
-        "System.LaunchApp"
+        "sh -c 'for c in gnome-calculator kcalc xfce4-calculator xcalc; do if command -v $c >/dev/null; then case $c in gnome-calculator) t=gnome-calculato; w=Calculator;; xfce4-calculator) t=xfce4-calculato; w=Calculator;; kcalc) t=kcalc; w=KCalc;; *) t=$c; w=xcalc;; esac; if pgrep -x $t >/dev/null; then if [ $c = gnome-calculator ]; then busctl --user call org.gnome.Shell /de/lucaswerkmeister/ActivateWindowByTitle de.lucaswerkmeister.ActivateWindowByTitle activateBySubstring s Calculator 2>/dev/null; if [ $? -eq 0 ]; then exit 0; fi; fi; if command -v wmctrl >/dev/null; then wmctrl -a $w 2>/dev/null; if [ $? -eq 0 ]; then exit 0; fi; fi; exec $c; else exec $c; fi; fi; done'"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.56.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/preview.png",
+      "appVersion": "1.59.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-lin/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-lin/screenshots/device-page-1.png"
       ],
       "package": {
-        "fileName": "calculator-linux.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-linux/calculator-linux.loupixprofile",
-        "sha256": "63031b059a3a792bcba0a1d2235d0dc308c121d09643d5ee5015d42865ac34fd",
-        "size": 3564
+        "fileName": "calculator-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-lin/calculator-lin.loupixprofile",
+        "sha256": "c481260fb00b3f91355cc38d8ee208a7ed1ec1a275018ada67795b379f8a47e1",
+        "size": 4418
       }
     },
     {
       "id": "calculator-win",
       "name": "Calculator",
-      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the bottom left dial to open the calculator app.",
+      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It launches a single instance of the app via a small shell command, as Microsoft stopped supporting this natively.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:40:06Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-16T12:45:55Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
-        "math"
+        "math",
+        "calc",
+        "windows10",
+        "windows11"
       ],
       "platforms": [
         "Windows"
@@ -285,13 +294,12 @@
       "requiredPlugins": [],
       "commands": [
         "System.KeyCombination",
-        "powershell -c \"",
-        "tasklist /fo csv /nh 2>nul | findstr /i /c:\"CalculatorApp.exe\" /c:\"Calculator.exe\" >nul"
+        "powershell -NoProfile -Command \"$p=Get-Process -Name ApplicationFrameHost -EA SilentlyContinue | ? {$_.MainWindowTitle -like 'Calculator*'} | Select-Object -First 1; if"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.59.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/screenshots/device-page-1.png"
@@ -299,8 +307,8 @@
       "package": {
         "fileName": "calculator-win.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/calculator-win.loupixprofile",
-        "sha256": "6bdefd8c3e2ef3343930c84fb3e1ac873e5b3de5999bcc73410145c696613720",
-        "size": 3748
+        "sha256": "87d8de9862606f566226a77cccc7c9ce1fc522d3c6683f585184afe66e53afa3",
+        "size": 4270
       }
     },
     {
