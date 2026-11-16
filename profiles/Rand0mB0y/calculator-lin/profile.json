@@ -1,6 +1,6 @@
 {
   "$schema": "../../../profile.schema.json",
-  "id": "calculator-linux",
+  "id": "calculator-lin",
   "name": "Calculator",
   "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It works with GNOME, KDE, Xfce, Cinnamon and minimal. For Wayland and X11.",
   "author": "Rand0mB0y",
