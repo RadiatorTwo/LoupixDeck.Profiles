@@ -6,8 +6,8 @@
       "name": "ArtCraft",
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-15T19:44:46Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-16T15:07:37Z",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -40,17 +40,19 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.59.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/buttons-page-0.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-folder-opened.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-folder-to-be-open.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/how-to-install.png"
       ],
       "package": {
         "fileName": "artcraft-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/artcraft-lin.loupixprofile",
-        "sha256": "66d9e4dd62d72ed7ddbbc502fd774f4195e7419441eab70e41aa4ebc3a32480b",
-        "size": 8021
+        "sha256": "9977b288b4915822f18e14573975973d0cf3ee101a70371654b533846dca6211",
+        "size": 13711
       }
     },
     {
@@ -58,8 +60,8 @@
       "name": "ArtCraft",
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-15T19:44:46Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-16T15:07:37Z",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -92,17 +94,19 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.59.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/buttons-page-0.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-folder-opened.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-folder-to-be-open.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/how-to-install.png"
       ],
       "package": {
         "fileName": "artcraft-win.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/artcraft-win.loupixprofile",
-        "sha256": "c7b449ca89cbc888a08192bfde0fa782b62fb846d3159c2f7c76441fd3baac3a",
-        "size": 8147
+        "sha256": "5a7d00cd754a2f6311f3656032152b2d2a67addfc7e813b0fff3e6455e3fe52f",
+        "size": 14101
       }
     },
     {
