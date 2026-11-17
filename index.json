@@ -270,6 +270,50 @@
       }
     },
     {
+      "id": "calculator-mac",
+      "name": "Calculator",
+      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-17T10:11:47Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "calculator",
+        "math",
+        "calc"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "open -a Calculator"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-mac/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-mac/screenshots/device-page-1.png"
+      ],
+      "package": {
+        "fileName": "calculator-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-mac/calculator-mac.loupixprofile",
+        "sha256": "9940614673d7e183803ba92d25f6a98044cc60564b16092c4ee6603c1b86eb1e",
+        "size": 3804
+      }
+    },
+    {
       "id": "calculator-win",
       "name": "Calculator",
       "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It launches a single instance of the app via a small shell command, as Microsoft stopped supporting this natively.",
