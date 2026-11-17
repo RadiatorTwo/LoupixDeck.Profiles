@@ -2,10 +2,10 @@
   "$schema": "../../../profile.schema.json",
   "id": "browsing-mac",
   "name": "Browsing",
-  "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
+  "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
   "author": "Rand0mB0y",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "CC-BY-4.0",
-  "tags": [ "browser", "email", "productivity", "media" ],
+  "tags": [ "browser", "mail", "productivity", "media", "social", "messages", "whatsapp", "messenger", "entertainment" ],
   "platforms": [ "macOS" ]
 }
