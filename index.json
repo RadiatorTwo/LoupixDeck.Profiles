@@ -112,16 +112,21 @@
     {
       "id": "browsing-mac",
       "name": "Browsing",
-      "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
+      "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
       "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-14T13:37:55Z",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-17T15:11:40Z",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
-        "email",
+        "mail",
         "productivity",
-        "media"
+        "media",
+        "social",
+        "messages",
+        "whatsapp",
+        "messenger",
+        "entertainment"
       ],
       "platforms": [
         "macOS"
@@ -138,7 +143,7 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
         }
       ],
       "commands": [
@@ -152,31 +157,38 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.59.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/device-page-2.png"
       ],
       "package": {
         "fileName": "browsing-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/browsing-mac.loupixprofile",
-        "sha256": "b2ac2e1f748903b11c1e4efad2a517edcd5670c66569000843df1ea2e5d35679",
-        "size": 1347055
+        "sha256": "f7b3e3eecbfae5599828a682dde9c3d1ab4486eef5e50708219fa9bba3040186",
+        "size": 1064257
       }
     },
     {
       "id": "browsing-win-lin",
       "name": "Browsing",
-      "description": "Open most common web pages. Close, Reopen & Cycle through Browser Tabs. Scroll & Zoom Pages. Control volume, playback and more. All within the same page in a single Workstation.",
+      "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
       "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-14T13:37:55Z",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-17T15:11:40Z",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
-        "email",
+        "mail",
         "productivity",
-        "media"
+        "media",
+        "social",
+        "messages",
+        "whatsapp",
+        "messenger",
+        "entertainment"
       ],
       "platforms": [
         "Windows",
@@ -194,7 +206,7 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
         }
       ],
       "commands": [
@@ -208,16 +220,18 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/device-page-2.png"
       ],
       "package": {
         "fileName": "browsing-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
-        "sha256": "1862885214336962cde43f519196c81e30ccaa8962ddf312c5eaf892839e92f8",
-        "size": 1350981
+        "sha256": "d78eb94b22d8c48ee65fe2bd21d6ec3996428489ce197d1c7c9bf8513e098cfa",
+        "size": 1064265
       }
     },
     {
