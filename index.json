@@ -114,8 +114,8 @@
       "name": "Browsing",
       "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
       "author": "Rand0mB0y",
-      "version": "1.0.2",
-      "updatedAt": "2026-11-17T15:11:40Z",
+      "version": "1.0.3",
+      "updatedAt": "2026-11-19T17:11:47+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -126,7 +126,8 @@
         "messages",
         "whatsapp",
         "messenger",
-        "entertainment"
+        "entertainment",
+        "websites"
       ],
       "platforms": [
         "macOS"
@@ -144,6 +145,10 @@
           "id": "audio",
           "name": "Audio",
           "version": "1.19.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
         }
       ],
       "commands": [
@@ -152,12 +157,13 @@
         "System.DeviceToggle",
         "System.KeyCombination",
         "System.LaunchApp",
-        "System.OpenUrl"
+        "System.OpenUrl",
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.59.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/buttons-page-2.png",
@@ -167,8 +173,8 @@
       "package": {
         "fileName": "browsing-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/browsing-mac.loupixprofile",
-        "sha256": "f7b3e3eecbfae5599828a682dde9c3d1ab4486eef5e50708219fa9bba3040186",
-        "size": 1064257
+        "sha256": "dc5f543ced21c4e16095da330b6c90ede54a3b0be10165e71235bd6b9d52553c",
+        "size": 1069110
       }
     },
     {
@@ -176,8 +182,8 @@
       "name": "Browsing",
       "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
       "author": "Rand0mB0y",
-      "version": "1.0.2",
-      "updatedAt": "2026-11-17T15:11:40Z",
+      "version": "1.0.3",
+      "updatedAt": "2026-11-19T17:11:47+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -188,7 +194,8 @@
         "messages",
         "whatsapp",
         "messenger",
-        "entertainment"
+        "entertainment",
+        "websites"
       ],
       "platforms": [
         "Windows",
@@ -207,6 +214,10 @@
           "id": "audio",
           "name": "Audio",
           "version": "1.19.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
         }
       ],
       "commands": [
@@ -215,7 +226,8 @@
         "System.DeviceToggle",
         "System.KeyCombination",
         "System.LaunchApp",
-        "System.OpenUrl"
+        "System.OpenUrl",
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
@@ -230,8 +242,8 @@
       "package": {
         "fileName": "browsing-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
-        "sha256": "d78eb94b22d8c48ee65fe2bd21d6ec3996428489ce197d1c7c9bf8513e098cfa",
-        "size": 1064265
+        "sha256": "409488b3972f2409d05ffc4de767f0d86b5bc5423e516d80e3f7713681c7b456",
+        "size": 1069129
       }
     },
     {
@@ -469,12 +481,19 @@
       "name": "digiKam",
       "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:43:52Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-19T17:11:38+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "digikam",
-        "dam"
+        "dam",
+        "graphic",
+        "editing",
+        "pictures",
+        "images",
+        "photo",
+        "exif",
+        "metadata"
       ],
       "platforms": [
         "macOS"
@@ -491,20 +510,21 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
         }
       ],
       "commands": [
+        "Audio.MuteToggle",
         "Audio.Volume",
         "System.DeviceToggle",
         "System.KeyCombination",
         "System.LaunchApp",
-        "System.MouseClick"
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.56.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/screenshots/device-page-1.png"
@@ -512,8 +532,8 @@
       "package": {
         "fileName": "digikam-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-mac/digikam-mac.loupixprofile",
-        "sha256": "b3810a805d34b8053ce83ef457f1f6153692e3a0b6a560d5bdba97709eebefeb",
-        "size": 4686
+        "sha256": "8f2caf37fcc1488f3b4a1b73f12405f198586394c3ac8873c939728f2b0905ad",
+        "size": 10060
       }
     },
     {
@@ -521,12 +541,19 @@
       "name": "digiKam",
       "description": "Rate, flag, delete, rotate, select and switch views. All using dials and buttons. Control the system volume with your top left dial for video reviewing, too.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:43:52Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-19T17:11:38+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "digikam",
-        "dam"
+        "dam",
+        "graphic",
+        "editing",
+        "pictures",
+        "images",
+        "photo",
+        "exif",
+        "metadata"
       ],
       "platforms": [
         "Windows",
@@ -544,20 +571,21 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
         }
       ],
       "commands": [
+        "Audio.MuteToggle",
         "Audio.Volume",
         "System.DeviceToggle",
         "System.KeyCombination",
         "System.LaunchApp",
-        "System.MouseClick"
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.56.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/screenshots/device-page-1.png"
@@ -565,8 +593,8 @@
       "package": {
         "fileName": "digikam-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/digikam-win-lin/digikam-win-lin.loupixprofile",
-        "sha256": "5c9aef8edff73aa838494bd8c3c374648934622f92b3227eb187b737e81fbc4c",
-        "size": 4895
+        "sha256": "f41037ccaa190b58e1836e2c80168aa85e3cbc25146cf4f96d66cc256513f392",
+        "size": 10069
       }
     },
     {
@@ -574,8 +602,8 @@
       "name": "OBS",
       "description": "Enable recording/streaming, switch scenes, launch clips, mute/unmute sources and control volumes. All at your finger tips in a single stylish page.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T20:12:21Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-19T17:11:43+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "obs",
@@ -583,7 +611,10 @@
         "recording",
         "streaming",
         "live",
-        "camera"
+        "camera",
+        "twitch",
+        "youtube",
+        "switching"
       ],
       "platforms": [
         "Windows",
@@ -602,7 +633,11 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
         },
         {
           "id": "obs",
@@ -611,6 +646,7 @@
         }
       ],
       "commands": [
+        "Audio.MuteToggle",
         "Audio.Volume",
         "System.DeviceToggle",
         "System.KeyCombination",
@@ -618,12 +654,13 @@
         "System.ObsSetScene",
         "System.ObsToggleInputMute",
         "System.ObsToggleRecord",
-        "System.ObsToggleStream"
+        "System.ObsToggleStream",
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.58.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/screenshots/buttons-page-1-toggled-1.png",
@@ -633,8 +670,8 @@
       "package": {
         "fileName": "obs-win-lin-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/obs-win-lin-mac/obs-win-lin-mac.loupixprofile",
-        "sha256": "05ed45b1bacd17a2a29f9d25677cf3980d1ac910ed192484b15e0ab8ec9e8f89",
-        "size": 7072
+        "sha256": "4a0c4949be1db7c39c0d5c3dccd610f4a130c0c5fb5b1bdbf61ae08d0ba03a5c",
+        "size": 12382
       }
     },
     {
@@ -642,15 +679,20 @@
       "name": "Photoshop / PhotoCraft",
       "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
       "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-14T13:50:16Z",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-19T17:11:51+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "photoshop",
         "photocraft",
         "adobe",
         "artcraft",
-        "graphics"
+        "graphics",
+        "editing",
+        "pictures",
+        "images",
+        "design",
+        "photos"
       ],
       "platforms": [
         "macOS"
@@ -675,7 +717,7 @@
       ],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/screenshots/buttons-page-2.png",
@@ -685,8 +727,8 @@
       "package": {
         "fileName": "photoshop-photocraft-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac/photoshop-photocraft-mac.loupixprofile",
-        "sha256": "873da7c2926ed0b9ac362a009f5824a6a794b7ce7ad78de7a5542ebd9fb744ee",
-        "size": 8250
+        "sha256": "1c20f0ed6a7eb55f8b9e452383d39a4de7b301f702a7dae55d75379ba4acbede",
+        "size": 8522
       }
     },
     {
@@ -694,15 +736,20 @@
       "name": "Photoshop / PhotoCraft",
       "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
       "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-14T13:50:16Z",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-19T17:11:51+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "photoshop",
         "photocraft",
         "adobe",
         "artcraft",
-        "graphics"
+        "graphics",
+        "editing",
+        "pictures",
+        "images",
+        "design",
+        "photos"
       ],
       "platforms": [
         "Windows",
@@ -728,7 +775,7 @@
       ],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/screenshots/buttons-page-2.png",
@@ -738,8 +785,8 @@
       "package": {
         "fileName": "photoshop-photocraft-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/photoshop-photocraft-win-lin.loupixprofile",
-        "sha256": "549427166913a3dd0deb421ee70057d1f27ebe869b6bc36069ff4b8f6b7772e8",
-        "size": 8109
+        "sha256": "6fc26d5566f369e6b8ccb05b008bd23051fe650a2fc9e2568188cefa480ba11e",
+        "size": 8375
       }
     },
     {
