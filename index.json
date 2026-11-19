@@ -247,22 +247,24 @@
       }
     },
     {
-      "id": "calculator-lin",
-      "name": "Calculator",
-      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It works with GNOME, KDE, Xfce, Cinnamon and minimal. For Wayland and X11.",
+      "id": "calcpad-lin",
+      "name": "CalcPad",
+      "description": "Turn your device into a numpad and use touch buttons to enter numbers instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It works with GNOME, KDE, Xfce, Cinnamon and minimal. For Wayland and X11.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-16T13:09:38Z",
+      "updatedAt": "2026-11-19T17:01:57Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
         "math",
         "calc",
+        "numpad",
+        "num",
+        "pad",
         "cinnamon",
         "gnome",
         "kde",
-        "xfce",
-        "minimal"
+        "xfce"
       ],
       "platforms": [
         "Linux"
@@ -283,30 +285,33 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.59.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-lin/preview.png",
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-lin/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-lin/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-lin/screenshots/device-page-1.png"
       ],
       "package": {
-        "fileName": "calculator-lin.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-lin/calculator-lin.loupixprofile",
-        "sha256": "c481260fb00b3f91355cc38d8ee208a7ed1ec1a275018ada67795b379f8a47e1",
-        "size": 4418
+        "fileName": "calcpad-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-lin/calcpad-lin.loupixprofile",
+        "sha256": "ad1f8babcad33cddecad3da38750398f87d7a39e8c261f4474e4e46d70aa06fe",
+        "size": 4424
       }
     },
     {
-      "id": "calculator-mac",
-      "name": "Calculator",
-      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator.",
+      "id": "calcpad-mac",
+      "name": "CalcPad",
+      "description": "Turn your device into a numpad and use touch buttons to enter numbers instead of mouse and keyboard. Press the calculator symbol to launch your calculator.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-17T10:11:47Z",
+      "updatedAt": "2026-11-19T17:01:57Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
         "math",
-        "calc"
+        "calc",
+        "numpad",
+        "num",
+        "pad"
       ],
       "platforms": [
         "macOS"
@@ -328,29 +333,32 @@
       "formatVersion": 1,
       "configSchemaVersion": 13,
       "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-mac/preview.png",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-mac/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-mac/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-mac/screenshots/device-page-1.png"
       ],
       "package": {
-        "fileName": "calculator-mac.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-mac/calculator-mac.loupixprofile",
-        "sha256": "9940614673d7e183803ba92d25f6a98044cc60564b16092c4ee6603c1b86eb1e",
-        "size": 3804
+        "fileName": "calcpad-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-mac/calcpad-mac.loupixprofile",
+        "sha256": "37607379e1e9fad12d511e7f8eaa2bb805a58a25960a9a42cae0a749bb2ff45b",
+        "size": 3813
       }
     },
     {
-      "id": "calculator-win",
-      "name": "Calculator",
-      "description": "Speed-up your math by quick-launching the calculator app and use the HW buttons of your device instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It launches a single instance of the app via a small shell command, as Microsoft stopped supporting this natively.",
+      "id": "calcpad-win",
+      "name": "CalcPad",
+      "description": "Turn your device into a numpad and use touch buttons to enter numbers instead of mouse and keyboard. Press the calculator symbol to launch your calculator. It launches a single instance of the app via a small shell command, as Microsoft stopped supporting this natively.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-16T12:45:55Z",
+      "updatedAt": "2026-11-19T17:01:57Z",
       "license": "CC-BY-4.0",
       "tags": [
         "calculator",
         "math",
         "calc",
+        "numpad",
+        "num",
+        "pad",
         "windows10",
         "windows11"
       ],
@@ -373,16 +381,64 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.59.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/preview.png",
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-win/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/screenshots/device-page-1.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-win/screenshots/device-page-1.png"
       ],
       "package": {
-        "fileName": "calculator-win.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calculator-win/calculator-win.loupixprofile",
-        "sha256": "87d8de9862606f566226a77cccc7c9ce1fc522d3c6683f585184afe66e53afa3",
-        "size": 4270
+        "fileName": "calcpad-win.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-win/calcpad-win.loupixprofile",
+        "sha256": "71a28cf25ed4d407f15352531d4ea4e1786f59c13994d64fae8f9b3389276262",
+        "size": 4185
+      }
+    },
+    {
+      "id": "calcpad-win-lin-mac-s",
+      "name": "CalcPad",
+      "description": "Turn your Live S into a numpad and use touch buttons to enter numbers instead of mouse and keyboard. When using a calculator, push the top dial for totals and bottom dial to reset.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-19T16:42:30Z",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "calculator",
+        "math",
+        "calc",
+        "numpad",
+        "num",
+        "pad"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-win-lin-mac-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-win-lin-mac-s/screenshots/device-page-1.png"
+      ],
+      "package": {
+        "fileName": "calcpad-win-lin-mac-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/calcpad-win-lin-mac-s/calcpad-win-lin-mac-s.loupixprofile",
+        "sha256": "88515f9864d0785bbdd613c26549d70f6499bb41d7c9d3da758d1974fc9793c0",
+        "size": 2861
       }
     },
     {
