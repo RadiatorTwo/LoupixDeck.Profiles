@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "photoshop-photocraft-win-lin-s",
+  "name": "Photoshop / PhotoCraft",
+  "description": "Pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again. Top dial: zoom. Bottom dial: brush size.",
+  "author": "Rand0mB0y",
+  "version": "1.0.2",
+  "license": "CC-BY-4.0",
+  "tags": [ "photoshop", "photocraft", "adobe", "artcraft", "graphics", "editing", "pictures", "images", "design", "photos" ],
+  "platforms": [ "Windows", "Linux" ]
+}
