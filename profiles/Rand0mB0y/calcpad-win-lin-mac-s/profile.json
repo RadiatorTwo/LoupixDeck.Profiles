@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "calcpad-win-lin-mac-s",
+  "name": "CalcPad",
+  "description": "Turn your Live S into a numpad and use touch buttons to enter numbers instead of mouse and keyboard. When using a calculator, push the top dial for totals and bottom dial to reset.",
+  "author": "Rand0mB0y",
+  "version": "1.0.1",
+  "license": "CC-BY-4.0",
+  "tags": [ "calculator", "math", "calc", "numpad", "num", "pad" ],
+  "platforms": [ "Windows", "Linux", "macOS" ]
+}
