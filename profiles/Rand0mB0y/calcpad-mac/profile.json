@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "calcpad-mac",
+  "name": "CalcPad",
+  "description": "Turn your device into a numpad and use touch buttons to enter numbers instead of mouse and keyboard. Press the calculator symbol to launch your calculator.",
+  "author": "Rand0mB0y",
+  "version": "1.0.1",
+  "license": "CC-BY-4.0",
+  "tags": [ "calculator", "math", "calc", "numpad", "num", "pad" ],
+  "platforms": [ "macOS" ]
+}
