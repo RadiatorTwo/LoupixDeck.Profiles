@@ -836,16 +836,16 @@
     {
       "id": "selfhosting-mac",
       "name": "Self-Hosting",
-      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:55:53Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-19T11:23:12Z",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
         "selfhost",
         "services",
-        "dash",
+        "dashboard",
         "jellyfin",
         "immich",
         "proxmox",
@@ -868,20 +868,26 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
         }
       ],
       "commands": [
+        "Audio.MuteToggle",
         "Audio.Volume",
         "System.DeviceToggle",
         "System.KeyCombination",
         "System.LaunchApp",
-        "System.OpenUrl"
+        "System.OpenUrl",
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/buttons-page-2.png",
@@ -891,23 +897,23 @@
       "package": {
         "fileName": "selfhosting-mac.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/selfhosting-mac.loupixprofile",
-        "sha256": "75c7b9e60db5d234e8e6fc5e7ef0fe7d63503d2f1e6514333760f480bbf95658",
-        "size": 719024
+        "sha256": "0d1b60e87a283c6593668a8bba2187b35edc733ebab67df852b8446ed8c87b6c",
+        "size": 1116506
       }
     },
     {
       "id": "selfhosting-win-lin",
       "name": "Self-Hosting",
-      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, PVE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
-      "version": "1.0.0",
-      "updatedAt": "2026-11-14T13:55:53Z",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-19T11:23:12Z",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
         "selfhost",
         "services",
-        "dash",
+        "dashboard",
         "jellyfin",
         "immich",
         "proxmox",
@@ -931,20 +937,26 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.18.0"
+          "version": "1.19.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
         }
       ],
       "commands": [
+        "Audio.MuteToggle",
         "Audio.Volume",
         "System.DeviceToggle",
         "System.KeyCombination",
         "System.LaunchApp",
-        "System.OpenUrl"
+        "System.OpenUrl",
+        "System.ToggleWindow"
       ],
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.57.0",
+      "appVersion": "1.60.0",
       "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/preview.png",
       "screenshots": [
         "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/buttons-page-2.png",
@@ -954,8 +966,8 @@
       "package": {
         "fileName": "selfhosting-win-lin.loupixprofile",
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/selfhosting-win-lin.loupixprofile",
-        "sha256": "32425531cc882d1d2148305530df685e01af716d42b89557eba6e081249c99bd",
-        "size": 726593
+        "sha256": "b0d27e298a30248488f24de93ce718bbba39acc4fbc8d58273bb8e4d3741f0ae",
+        "size": 1116512
       }
     }
   ]
