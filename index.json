@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "profiles": [
     {
-      "id": "artcraft-lin",
-      "name": "ArtCraft",
+      "id": "artcraft-folder-lin",
+      "name": "ArtCraft Folder",
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-16T15:07:37Z",
+      "updatedAt": "2026-11-20T09:48:56+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -40,28 +40,83 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.59.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/preview.png",
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/buttons-page-0.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-folder-opened.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/device-folder-to-be-open.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/screenshots/how-to-install.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin/screenshots/buttons-page-0.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin/screenshots/device-folder-opened.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin/screenshots/device-folder-to-be-open.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin/screenshots/how-to-install.png"
       ],
       "package": {
-        "fileName": "artcraft-lin.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-lin/artcraft-lin.loupixprofile",
-        "sha256": "9977b288b4915822f18e14573975973d0cf3ee101a70371654b533846dca6211",
-        "size": 13711
+        "fileName": "artcraft-folder-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin/artcraft-folder-lin.loupixprofile",
+        "sha256": "250946b214d0e1103c1988eea90e7330bfeda07254f72542b92a5ebeabb69ad4",
+        "size": 13713
       }
     },
     {
-      "id": "artcraft-win",
-      "name": "ArtCraft",
+      "id": "artcraft-folder-lin-s",
+      "name": "ArtCraft Folder",
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
       "author": "Rand0mB0y",
       "version": "1.0.1",
-      "updatedAt": "2026-11-16T15:07:37Z",
+      "updatedAt": "2026-11-20T09:48:56+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "artcraft",
+        "photocraft",
+        "filmcraft",
+        "effectcraft",
+        "soundcraft",
+        "lightcraft",
+        "graphics",
+        "daw",
+        "office",
+        "word"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.GotoWorkspace",
+        "System.LaunchApp",
+        "System.OpenFolder"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin-s/screenshots/buttons-page-0.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin-s/screenshots/device-folder-opened.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin-s/screenshots/device-folder-to-be-open.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin-s/screenshots/how-to-install.png"
+      ],
+      "package": {
+        "fileName": "artcraft-folder-lin-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-lin-s/artcraft-folder-lin-s.loupixprofile",
+        "sha256": "b2d27bd8a4ddd94c64ccbe445b4ab8c54557fe050b4125bc7476a33cad8c714e",
+        "size": 226349
+      }
+    },
+    {
+      "id": "artcraft-folder-win",
+      "name": "ArtCraft Folder",
+      "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-20T09:48:56+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "artcraft",
@@ -94,19 +149,73 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.59.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/preview.png",
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/buttons-page-0.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-folder-opened.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/device-folder-to-be-open.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/screenshots/how-to-install.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win/screenshots/buttons-page-0.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win/screenshots/device-folder-opened.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win/screenshots/device-folder-to-be-open.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win/screenshots/how-to-install.png"
       ],
       "package": {
-        "fileName": "artcraft-win.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-win/artcraft-win.loupixprofile",
-        "sha256": "5a7d00cd754a2f6311f3656032152b2d2a67addfc7e813b0fff3e6455e3fe52f",
-        "size": 14101
+        "fileName": "artcraft-folder-win.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win/artcraft-folder-win.loupixprofile",
+        "sha256": "3225b07ed2a0f1c31ff7d0cda710188eacd39c9449b158334b7dd68404aeca96",
+        "size": 14063
+      }
+    },
+    {
+      "id": "artcraft-folder-win-s",
+      "name": "ArtCraft Folder",
+      "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-20T09:48:56+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "artcraft",
+        "photocraft",
+        "filmcraft",
+        "effectcraft",
+        "soundcraft",
+        "lightcraft",
+        "graphics",
+        "daw",
+        "office",
+        "word"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.LaunchApp",
+        "System.OpenFolder"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win-s/screenshots/buttons-page-0.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win-s/screenshots/device-folder-opened.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win-s/screenshots/device-folder-to-be-open.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win-s/screenshots/how-to-install.png"
+      ],
+      "package": {
+        "fileName": "artcraft-folder-win-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/artcraft-folder-win-s/artcraft-folder-win-s.loupixprofile",
+        "sha256": "35d1a7c13db2504fa0f0cbdb7a5c05f75917ca5190558e29d7f094cf667a5a6e",
+        "size": 226587
       }
     },
     {
@@ -178,6 +287,59 @@
       }
     },
     {
+      "id": "browsing-mac-s",
+      "name": "Browsing",
+      "description": "Multiple touch pages filled with handy links to the most common websites. Top dial: mouse scroll and close tabs. Bottom dial: cycle through and reopen tabs.",
+      "author": "Rand0mB0y",
+      "version": "1.0.3",
+      "updatedAt": "2026-11-20T09:48:48+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "browser",
+        "mail",
+        "productivity",
+        "media",
+        "social",
+        "messages",
+        "whatsapp",
+        "messenger",
+        "entertainment",
+        "websites"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/screenshots/device-page-2.png"
+      ],
+      "package": {
+        "fileName": "browsing-mac-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/browsing-mac-s.loupixprofile",
+        "sha256": "3e249402a0a0756cba1cb6a0519b79992f2722631ef52fdc8f54c52a1a06063f",
+        "size": 1467879
+      }
+    },
+    {
       "id": "browsing-win-lin",
       "name": "Browsing",
       "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
@@ -244,6 +406,60 @@
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
         "sha256": "409488b3972f2409d05ffc4de767f0d86b5bc5423e516d80e3f7713681c7b456",
         "size": 1069129
+      }
+    },
+    {
+      "id": "browsing-win-lin-s",
+      "name": "Browsing",
+      "description": "Multiple touch pages filled with handy links to the most common websites. Top dial: mouse scroll and close tabs. Bottom dial: cycle through and reopen tabs.",
+      "author": "Rand0mB0y",
+      "version": "1.0.3",
+      "updatedAt": "2026-11-20T09:48:48+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "browser",
+        "mail",
+        "productivity",
+        "media",
+        "social",
+        "messages",
+        "whatsapp",
+        "messenger",
+        "entertainment",
+        "websites"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/screenshots/device-page-2.png"
+      ],
+      "package": {
+        "fileName": "browsing-win-lin-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/browsing-win-lin-s.loupixprofile",
+        "sha256": "b889708ca7b07123a7157942a43583bb55569444e930a4947bb24b4ae70e0f71",
+        "size": 1467883
       }
     },
     {
@@ -788,6 +1004,64 @@
       }
     },
     {
+      "id": "photoshop-photocraft-mac-s",
+      "name": "Photoshop / PhotoCraft",
+      "description": "Pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again. Top dial: zoom. Bottom dial: brush size.",
+      "author": "Rand0mB0y",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-20T09:49:00+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "photoshop",
+        "photocraft",
+        "adobe",
+        "artcraft",
+        "graphics",
+        "editing",
+        "pictures",
+        "images",
+        "design",
+        "photos"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.Macro"
+      ],
+      "macros": [
+        "Modifier Alt",
+        "Modifier Control",
+        "Modifier Shift",
+        "Modifier Win"
+      ],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac-s/screenshots/device-page-2.png"
+      ],
+      "package": {
+        "fileName": "photoshop-photocraft-mac-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-mac-s/photoshop-photocraft-mac-s.loupixprofile",
+        "sha256": "4e7feef0b939515e9944e9ebb73d1edfc856640fdb5477a2a1e88ba48dd5e12c",
+        "size": 6827
+      }
+    },
+    {
       "id": "photoshop-photocraft-win-lin",
       "name": "Photoshop / PhotoCraft",
       "description": "Increase brush sizes, pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again.",
@@ -843,6 +1117,64 @@
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin/photoshop-photocraft-win-lin.loupixprofile",
         "sha256": "6fc26d5566f369e6b8ccb05b008bd23051fe650a2fc9e2568188cefa480ba11e",
         "size": 8375
+      }
+    },
+    {
+      "id": "photoshop-photocraft-win-lin-s",
+      "name": "Photoshop / PhotoCraft",
+      "description": "Pick your tools and have your modifiers at hand. Combine this Workspace with a Wacom tablet and you will hardly have to reach for your keyboard and mouse again. Top dial: zoom. Bottom dial: brush size.",
+      "author": "Rand0mB0y",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-20T09:49:00+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "photoshop",
+        "photocraft",
+        "adobe",
+        "artcraft",
+        "graphics",
+        "editing",
+        "pictures",
+        "images",
+        "design",
+        "photos"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.Macro"
+      ],
+      "macros": [
+        "Modifier Alt",
+        "Modifier Control",
+        "Modifier Shift"
+      ],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin-s/screenshots/device-page-2.png"
+      ],
+      "package": {
+        "fileName": "photoshop-photocraft-win-lin-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/photoshop-photocraft-win-lin-s/photoshop-photocraft-win-lin-s.loupixprofile",
+        "sha256": "dc42b520d51c59598dbac66a80f802ab02f0a606847de962d350bbfa13f77de3",
+        "size": 6481
       }
     },
     {
@@ -1005,6 +1337,59 @@
       }
     },
     {
+      "id": "selfhosting-mac-s",
+      "name": "Self-Hosting",
+      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-20T09:48:52+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "selfhosting",
+        "selfhost",
+        "services",
+        "dashboard",
+        "jellyfin",
+        "immich",
+        "proxmox",
+        "adguard",
+        "truenas",
+        "nextcloud"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/screenshots/device-page-2.png"
+      ],
+      "package": {
+        "fileName": "selfhosting-mac-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/selfhosting-mac-s.loupixprofile",
+        "sha256": "d08ca500829f9292e5479ae41dc2df0b1fc38166510d013c7a170a102d024dd3",
+        "size": 1110575
+      }
+    },
+    {
       "id": "selfhosting-win-lin",
       "name": "Self-Hosting",
       "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
@@ -1071,6 +1456,60 @@
         "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/selfhosting-win-lin.loupixprofile",
         "sha256": "b0d27e298a30248488f24de93ce718bbba39acc4fbc8d58273bb8e4d3741f0ae",
         "size": 1116512
+      }
+    },
+    {
+      "id": "selfhosting-win-lin-s",
+      "name": "Self-Hosting",
+      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
+      "author": "Rand0mB0y",
+      "version": "1.0.1",
+      "updatedAt": "2026-11-20T09:48:52+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "selfhosting",
+        "selfhost",
+        "services",
+        "dashboard",
+        "jellyfin",
+        "immich",
+        "proxmox",
+        "adguard",
+        "truenas",
+        "nextcloud"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "kind": "Workspace",
+      "device": {
+        "slug": "loupedeck-live-s",
+        "name": "Loupedeck Live S",
+        "touchButtons": 15,
+        "rotaryButtons": 2,
+        "hasSideStrips": false
+      },
+      "requiredPlugins": [],
+      "commands": [
+        "System.KeyCombination",
+        "System.OpenUrl"
+      ],
+      "macros": [],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.60.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/screenshots/device-page-2.png"
+      ],
+      "package": {
+        "fileName": "selfhosting-win-lin-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/selfhosting-win-lin-s.loupixprofile",
+        "sha256": "b5f6938329f0832b49f40abe9b720c20072e3e33e78a6cebf4415af3a449e1ff",
+        "size": 1110576
       }
     }
   ]
