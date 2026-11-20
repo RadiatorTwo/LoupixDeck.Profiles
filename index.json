@@ -219,12 +219,12 @@
       }
     },
     {
-      "id": "browsing-mac",
+      "id": "browsing-win-lin-mac",
       "name": "Browsing",
-      "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
+      "description": "Multiple touch pages filled with handy links to the most common websites. Left dials: media volume, playback and device brightness. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs.",
       "author": "Rand0mB0y",
-      "version": "1.0.3",
-      "updatedAt": "2026-11-19T17:11:47+01:00",
+      "version": "1.0.4",
+      "updatedAt": "2026-11-21T00:01:06+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -239,6 +239,8 @@
         "websites"
       ],
       "platforms": [
+        "Windows",
+        "Linux",
         "macOS"
       ],
       "kind": "Workspace",
@@ -253,7 +255,7 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.19.0"
+          "version": "1.20.0"
         },
         {
           "id": "audio.volume-bars",
@@ -272,27 +274,27 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/preview.png",
+      "appVersion": "1.61.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/screenshots/device-page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac/screenshots/device-page-2.png"
       ],
       "package": {
-        "fileName": "browsing-mac.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac/browsing-mac.loupixprofile",
-        "sha256": "dc5f543ced21c4e16095da330b6c90ede54a3b0be10165e71235bd6b9d52553c",
-        "size": 1069110
+        "fileName": "browsing-win-lin-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac/browsing-win-lin-mac.loupixprofile",
+        "sha256": "fd75e25c1dda2e06be4b2d01bd4a94b97f419d418a96f97d7a6933a1ccae67cb",
+        "size": 360019
       }
     },
     {
-      "id": "browsing-mac-s",
+      "id": "browsing-win-lin-mac-s",
       "name": "Browsing",
       "description": "Multiple touch pages filled with handy links to the most common websites. Top dial: mouse scroll and close tabs. Bottom dial: cycle through and reopen tabs.",
       "author": "Rand0mB0y",
-      "version": "1.0.3",
-      "updatedAt": "2026-11-20T09:48:48+01:00",
+      "version": "1.0.4",
+      "updatedAt": "2026-11-21T00:01:06+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "browser",
@@ -307,6 +309,8 @@
         "websites"
       ],
       "platforms": [
+        "Windows",
+        "Linux",
         "macOS"
       ],
       "kind": "Workspace",
@@ -325,141 +329,18 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/preview.png",
+      "appVersion": "1.61.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac-s/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/screenshots/device-page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac-s/screenshots/device-page-2.png"
       ],
       "package": {
-        "fileName": "browsing-mac-s.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-mac-s/browsing-mac-s.loupixprofile",
-        "sha256": "3e249402a0a0756cba1cb6a0519b79992f2722631ef52fdc8f54c52a1a06063f",
-        "size": 1467879
-      }
-    },
-    {
-      "id": "browsing-win-lin",
-      "name": "Browsing",
-      "description": "Multiple touch pages filled with handy links to the most common websites. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs. Left dials: media volume, playback and device brightness.",
-      "author": "Rand0mB0y",
-      "version": "1.0.3",
-      "updatedAt": "2026-11-19T17:11:47+01:00",
-      "license": "CC-BY-4.0",
-      "tags": [
-        "browser",
-        "mail",
-        "productivity",
-        "media",
-        "social",
-        "messages",
-        "whatsapp",
-        "messenger",
-        "entertainment",
-        "websites"
-      ],
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "kind": "Workspace",
-      "device": {
-        "slug": "loupedeck-live",
-        "name": "Loupedeck Live",
-        "touchButtons": 14,
-        "rotaryButtons": 6,
-        "hasSideStrips": true
-      },
-      "requiredPlugins": [
-        {
-          "id": "audio",
-          "name": "Audio",
-          "version": "1.19.0"
-        },
-        {
-          "id": "audio.volume-bars",
-          "name": "audio.volume-bars"
-        }
-      ],
-      "commands": [
-        "Audio.MuteToggle",
-        "Audio.Volume",
-        "System.DeviceToggle",
-        "System.KeyCombination",
-        "System.LaunchApp",
-        "System.OpenUrl",
-        "System.ToggleWindow"
-      ],
-      "macros": [],
-      "formatVersion": 1,
-      "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/preview.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/screenshots/device-page-2.png"
-      ],
-      "package": {
-        "fileName": "browsing-win-lin.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin/browsing-win-lin.loupixprofile",
-        "sha256": "409488b3972f2409d05ffc4de767f0d86b5bc5423e516d80e3f7713681c7b456",
-        "size": 1069129
-      }
-    },
-    {
-      "id": "browsing-win-lin-s",
-      "name": "Browsing",
-      "description": "Multiple touch pages filled with handy links to the most common websites. Top dial: mouse scroll and close tabs. Bottom dial: cycle through and reopen tabs.",
-      "author": "Rand0mB0y",
-      "version": "1.0.3",
-      "updatedAt": "2026-11-20T09:48:48+01:00",
-      "license": "CC-BY-4.0",
-      "tags": [
-        "browser",
-        "mail",
-        "productivity",
-        "media",
-        "social",
-        "messages",
-        "whatsapp",
-        "messenger",
-        "entertainment",
-        "websites"
-      ],
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "kind": "Workspace",
-      "device": {
-        "slug": "loupedeck-live-s",
-        "name": "Loupedeck Live S",
-        "touchButtons": 15,
-        "rotaryButtons": 2,
-        "hasSideStrips": false
-      },
-      "requiredPlugins": [],
-      "commands": [
-        "System.KeyCombination",
-        "System.OpenUrl"
-      ],
-      "macros": [],
-      "formatVersion": 1,
-      "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/preview.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/screenshots/device-page-2.png"
-      ],
-      "package": {
-        "fileName": "browsing-win-lin-s.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-s/browsing-win-lin-s.loupixprofile",
-        "sha256": "b889708ca7b07123a7157942a43583bb55569444e930a4947bb24b4ae70e0f71",
-        "size": 1467883
+        "fileName": "browsing-win-lin-mac-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/browsing-win-lin-mac-s/browsing-win-lin-mac-s.loupixprofile",
+        "sha256": "d13fcddc36c6d32128d11c400e5d6a10caa34e157bcb8f70148e82793cf025ed",
+        "size": 447891
       }
     },
     {
@@ -1269,12 +1150,12 @@
       }
     },
     {
-      "id": "selfhosting-mac",
+      "id": "selfhosting-win-lin-mac",
       "name": "Self-Hosting",
       "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-19T11:23:12Z",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-21T00:01:11+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
@@ -1289,6 +1170,8 @@
         "nextcloud"
       ],
       "platforms": [
+        "Windows",
+        "Linux",
         "macOS"
       ],
       "kind": "Workspace",
@@ -1303,7 +1186,7 @@
         {
           "id": "audio",
           "name": "Audio",
-          "version": "1.19.0"
+          "version": "1.20.0"
         },
         {
           "id": "audio.volume-bars",
@@ -1322,27 +1205,27 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/preview.png",
+      "appVersion": "1.61.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/screenshots/device-page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac/screenshots/device-page-2.png"
       ],
       "package": {
-        "fileName": "selfhosting-mac.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac/selfhosting-mac.loupixprofile",
-        "sha256": "0d1b60e87a283c6593668a8bba2187b35edc733ebab67df852b8446ed8c87b6c",
-        "size": 1116506
+        "fileName": "selfhosting-win-lin-mac.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac/selfhosting-win-lin-mac.loupixprofile",
+        "sha256": "758f7bf899de4ec543ae0688e77c961a522668e5a4a28ec96dc697af8c4eb154",
+        "size": 478561
       }
     },
     {
-      "id": "selfhosting-mac-s",
+      "id": "selfhosting-win-lin-mac-s",
       "name": "Self-Hosting",
       "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
       "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-20T09:48:52+01:00",
+      "version": "1.0.2",
+      "updatedAt": "2026-11-21T00:01:11+01:00",
       "license": "CC-BY-4.0",
       "tags": [
         "selfhosting",
@@ -1357,6 +1240,8 @@
         "nextcloud"
       ],
       "platforms": [
+        "Windows",
+        "Linux",
         "macOS"
       ],
       "kind": "Workspace",
@@ -1375,141 +1260,18 @@
       "macros": [],
       "formatVersion": 1,
       "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/preview.png",
+      "appVersion": "1.61.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac-s/preview.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/screenshots/device-page-2.png"
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac-s/screenshots/buttons-page-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac-s/screenshots/device-page-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac-s/screenshots/device-page-2.png"
       ],
       "package": {
-        "fileName": "selfhosting-mac-s.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-mac-s/selfhosting-mac-s.loupixprofile",
-        "sha256": "d08ca500829f9292e5479ae41dc2df0b1fc38166510d013c7a170a102d024dd3",
-        "size": 1110575
-      }
-    },
-    {
-      "id": "selfhosting-win-lin",
-      "name": "Self-Hosting",
-      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
-      "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-19T11:23:12Z",
-      "license": "CC-BY-4.0",
-      "tags": [
-        "selfhosting",
-        "selfhost",
-        "services",
-        "dashboard",
-        "jellyfin",
-        "immich",
-        "proxmox",
-        "adguard",
-        "truenas",
-        "nextcloud"
-      ],
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "kind": "Workspace",
-      "device": {
-        "slug": "loupedeck-live",
-        "name": "Loupedeck Live",
-        "touchButtons": 14,
-        "rotaryButtons": 6,
-        "hasSideStrips": true
-      },
-      "requiredPlugins": [
-        {
-          "id": "audio",
-          "name": "Audio",
-          "version": "1.19.0"
-        },
-        {
-          "id": "audio.volume-bars",
-          "name": "audio.volume-bars"
-        }
-      ],
-      "commands": [
-        "Audio.MuteToggle",
-        "Audio.Volume",
-        "System.DeviceToggle",
-        "System.KeyCombination",
-        "System.LaunchApp",
-        "System.OpenUrl",
-        "System.ToggleWindow"
-      ],
-      "macros": [],
-      "formatVersion": 1,
-      "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/preview.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/screenshots/device-page-2.png"
-      ],
-      "package": {
-        "fileName": "selfhosting-win-lin.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin/selfhosting-win-lin.loupixprofile",
-        "sha256": "b0d27e298a30248488f24de93ce718bbba39acc4fbc8d58273bb8e4d3741f0ae",
-        "size": 1116512
-      }
-    },
-    {
-      "id": "selfhosting-win-lin-s",
-      "name": "Self-Hosting",
-      "description": "Access the GUI of most services and dash panels: GetHomepage, Home Assistant, Proxmox VE, TrueNAS, Immich, Jellyfin, AdGuard Home, Dockge, Syncthing, Paperless, unRAID, Nextcloud, Beszel, Norish, etc.",
-      "author": "Rand0mB0y",
-      "version": "1.0.1",
-      "updatedAt": "2026-11-20T09:48:52+01:00",
-      "license": "CC-BY-4.0",
-      "tags": [
-        "selfhosting",
-        "selfhost",
-        "services",
-        "dashboard",
-        "jellyfin",
-        "immich",
-        "proxmox",
-        "adguard",
-        "truenas",
-        "nextcloud"
-      ],
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "kind": "Workspace",
-      "device": {
-        "slug": "loupedeck-live-s",
-        "name": "Loupedeck Live S",
-        "touchButtons": 15,
-        "rotaryButtons": 2,
-        "hasSideStrips": false
-      },
-      "requiredPlugins": [],
-      "commands": [
-        "System.KeyCombination",
-        "System.OpenUrl"
-      ],
-      "macros": [],
-      "formatVersion": 1,
-      "configSchemaVersion": 13,
-      "appVersion": "1.60.0",
-      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/preview.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/screenshots/buttons-page-2.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/screenshots/device-page-1.png",
-        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/screenshots/device-page-2.png"
-      ],
-      "package": {
-        "fileName": "selfhosting-win-lin-s.loupixprofile",
-        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-s/selfhosting-win-lin-s.loupixprofile",
-        "sha256": "b5f6938329f0832b49f40abe9b720c20072e3e33e78a6cebf4415af3a449e1ff",
-        "size": 1110576
+        "fileName": "selfhosting-win-lin-mac-s.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/selfhosting-win-lin-mac-s/selfhosting-win-lin-mac-s.loupixprofile",
+        "sha256": "6369580f34bf214f8412a97966f6beb2099ef7ad4b0378f28705fb2b20659867",
+        "size": 460373
       }
     }
   ]
