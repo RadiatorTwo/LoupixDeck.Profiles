@@ -1,11 +1,11 @@
 {
   "$schema": "../../../profile.schema.json",
-  "id": "browsing-mac-s",
+  "id": "browsing-win-lin-mac-s",
   "name": "Browsing",
   "description": "Multiple touch pages filled with handy links to the most common websites. Top dial: mouse scroll and close tabs. Bottom dial: cycle through and reopen tabs.",
   "author": "Rand0mB0y",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "CC-BY-4.0",
   "tags": [ "browser", "mail", "productivity", "media", "social", "messages", "whatsapp", "messenger", "entertainment", "websites" ],
-  "platforms": [ "macOS" ]
+  "platforms": [ "Windows", "Linux", "macOS" ]
 }

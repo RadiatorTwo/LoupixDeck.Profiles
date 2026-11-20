@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "browsing-win-lin-mac",
+  "name": "Browsing",
+  "description": "Multiple touch pages filled with handy links to the most common websites. Left dials: media volume, playback and device brightness. Right dials: zoom, close/reopen, scroll, and cycle through browser tabs.",
+  "author": "Rand0mB0y",
+  "version": "1.0.4",
+  "license": "CC-BY-4.0",
+  "tags": [ "browser", "mail", "productivity", "media", "social", "messages", "whatsapp", "messenger", "entertainment", "websites" ],
+  "platforms": [ "Windows", "Linux", "macOS" ]
+}
