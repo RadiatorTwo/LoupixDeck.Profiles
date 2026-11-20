@@ -1,7 +1,7 @@
 {
   "$schema": "../../../profile.schema.json",
-  "id": "artcraft-lin",
-  "name": "ArtCraft",
+  "id": "artcraft-folder-lin-s",
+  "name": "ArtCraft Folder",
   "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
   "author": "Rand0mB0y",
   "version": "1.0.1",
