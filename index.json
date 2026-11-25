@@ -2,6 +2,200 @@
   "schemaVersion": 1,
   "profiles": [
     {
+      "id": "360-creator-lin",
+      "name": "360 Creator",
+      "description": "A single profile to control most editing software used in the creative industries: Photoshop, Premiere, Pro Tools, OBS, digiKam, etc. It works with the Art Craft suit, too. Press one LED button to recall a workstation, keep pressing the same LED button for the next workstation pages. LED Buttons are color coded according to the software they control. Simple, yet effective.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-25T23:51:24+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "creative",
+        "photoshop",
+        "adobe",
+        "premiere",
+        "digikam",
+        "artcraft",
+        "photocraft",
+        "music",
+        "protools",
+        "video"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "kind": "Profile",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.20.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
+        },
+        {
+          "id": "obs",
+          "name": "OBS Studio",
+          "version": "1.7.0"
+        }
+      ],
+      "commands": [
+        "Audio.MuteToggle",
+        "Audio.Volume",
+        "DynamicText.Clock",
+        "System.DeviceToggle",
+        "System.GotoWorkspace",
+        "System.KeyCombination",
+        "System.KeySequence",
+        "System.LaunchApp",
+        "System.Macro",
+        "System.NextPage",
+        "System.NextRotaryPage",
+        "System.ObsSetScene",
+        "System.ObsToggleInputMute",
+        "System.ObsToggleRecord",
+        "System.ObsToggleStream",
+        "System.OpenFolder",
+        "System.OpenUrl",
+        "System.SetLedButtonState",
+        "System.ToggleWindow",
+        "gdbus call --session --dest org.gnome.Shell   --object-path /org/gnome/Shell/Extensions/RunOrRaise   --method org.gnome.Shell.Extensions.RunOrRaise.Call \",net.puddletag.puddletag.desktop\"",
+        "gdbus call --session --dest org.gnome.Shell   --object-path /org/gnome/Shell/Extensions/RunOrRaise   --method org.gnome.Shell.Extensions.RunOrRaise.Call \",org.gnome.Terminal.desktop\"",
+        "sh -c 'for c in gnome-calculator kcalc xfce4-calculator xcalc; do if command -v $c >/dev/null; then case $c in gnome-calculator) t=gnome-calculato; w=Calculator;; xfce4-calculator) t=xfce4-calculato; w=Calculator;; kcalc) t=kcalc; w=KCalc;; *) t=$c; w=xcalc;; esac; if pgrep -x $t >/dev/null; then if [ $c = gnome-calculator ]; then busctl --user call org.gnome.Shell /de/lucaswerkmeister/ActivateWindowByTitle de.lucaswerkmeister.ActivateWindowByTitle activateBySubstring s Calculator 2>/dev/null; if [ $? -eq 0 ]; then exit 0; fi; fi; if command -v wmctrl >/dev/null; then wmctrl -a $w 2>/dev/null; if [ $? -eq 0 ]; then exit 0; fi; fi; exec $c; else exec $c; fi; fi; done'"
+      ],
+      "macros": [
+        "Modifier Alt",
+        "Modifier Control",
+        "Modifier Shift",
+        "Premiere - Copy",
+        "Premiere - Paste"
+      ],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.66.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/screenshots/2-digikam.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/screenshots/3-photoshop-photocraft-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/screenshots/4-premiere-filmcraft-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/screenshots/5-obs.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/screenshots/6-protools.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/screenshots/7-CalcPad.png"
+      ],
+      "package": {
+        "fileName": "360-creator-lin.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-lin/360-creator-lin.loupixprofile",
+        "sha256": "b93fe01beb006926bab02e975cc1fc5a14940aa3ce365013e76cfc1863d4f875",
+        "size": 1297329
+      }
+    },
+    {
+      "id": "360-creator-win",
+      "name": "360 Creator",
+      "description": "A single profile to control most editing software used in the creative industries: Photoshop, Premiere, Pro Tools, OBS, digiKam, etc. It works with the Art Craft suit, too. Press one LED button to recall a workstation, keep pressing the same LED button for the next workstation pages. LED Buttons are color coded according to the software they control. Simple, yet effective.",
+      "author": "Rand0mB0y",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-25T23:51:24+01:00",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "creative",
+        "photoshop",
+        "adobe",
+        "premiere",
+        "digikam",
+        "artcraft",
+        "photocraft",
+        "music",
+        "protools",
+        "video"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "kind": "Profile",
+      "device": {
+        "slug": "loupedeck-live",
+        "name": "Loupedeck Live",
+        "touchButtons": 14,
+        "rotaryButtons": 6,
+        "hasSideStrips": true
+      },
+      "requiredPlugins": [
+        {
+          "id": "audio",
+          "name": "Audio",
+          "version": "1.20.0"
+        },
+        {
+          "id": "audio.volume-bars",
+          "name": "audio.volume-bars"
+        },
+        {
+          "id": "obs",
+          "name": "OBS Studio",
+          "version": "1.7.0"
+        }
+      ],
+      "commands": [
+        "Audio.MuteToggle",
+        "Audio.Volume",
+        "DynamicText.Clock",
+        "System.DeviceToggle",
+        "System.GotoWorkspace",
+        "System.KeyCombination",
+        "System.KeySequence",
+        "System.LaunchApp",
+        "System.Macro",
+        "System.NextPage",
+        "System.NextRotaryPage",
+        "System.ObsSetScene",
+        "System.ObsToggleInputMute",
+        "System.ObsToggleRecord",
+        "System.ObsToggleStream",
+        "System.OpenFolder",
+        "System.OpenUrl",
+        "System.SetLedButtonState",
+        "System.ToggleWindow",
+        "explorer",
+        "powershell -NoProfile -Command \"$p=Get-Process -Name ApplicationFrameHost -EA SilentlyContinue | ? {$_.MainWindowTitle -like 'Calculator*'} | Select-Object -First 1; if",
+        "powershell -NoProfile -Command \"Start-Process"
+      ],
+      "macros": [
+        "Modifier Alt",
+        "Modifier Control",
+        "Modifier Shift",
+        "Premiere - Copy",
+        "Premiere - Paste"
+      ],
+      "formatVersion": 1,
+      "configSchemaVersion": 13,
+      "appVersion": "1.66.0",
+      "preview": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/preview.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/screenshots/2-digikam.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/screenshots/3-photoshop-photocraft-2.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/screenshots/4-premiere-filmcraft-1.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/screenshots/5-obs.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/screenshots/6-protools.png",
+        "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/screenshots/7-CalcPad.png"
+      ],
+      "package": {
+        "fileName": "360-creator-win.loupixprofile",
+        "downloadUrl": "https://raw.githubusercontent.com/RadiatorTwo/LoupixDeck.Profiles/master/profiles/Rand0mB0y/360-creator-win/360-creator-win.loupixprofile",
+        "sha256": "1f680134ce211431687676a13a26860c94651cf9d1ec50f9ca75f62186547138",
+        "size": 1593682
+      }
+    },
+    {
       "id": "artcraft-folder-lin",
       "name": "ArtCraft Folder",
       "description": "Launch ArtCraft apps via familiar icons and colors. To use it, after importing, copy/paste the main ArtCraft button in any of your workspaces. It will create automatically a folder including all the other app-specific buttons.",
