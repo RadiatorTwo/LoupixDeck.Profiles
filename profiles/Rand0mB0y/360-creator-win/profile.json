@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../profile.schema.json",
+  "id": "360-creator-win",
+  "name": "360 Creator",
+  "description": "A single profile to control most editing software used in the creative industries: Photoshop, Premiere, Pro Tools, OBS, digiKam, etc. It works with the Art Craft suit, too. Press one LED button to recall a workstation, keep pressing the same LED button for the next workstation pages. LED Buttons are color coded according to the software they control. Simple, yet effective.",
+  "author": "Rand0mB0y",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [ "creative", "photoshop", "adobe", "premiere", "digikam", "artcraft", "photocraft", "music", "protools", "video" ],
+  "platforms": [ "Windows" ]
+}
